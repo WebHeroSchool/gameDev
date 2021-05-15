@@ -64,7 +64,6 @@ function chooseLevel(menu) {
     break;
   }
 }
-
 function startGame() {
   let menu = document.querySelector('.active').innerText;
   chooseLevel(menu);
