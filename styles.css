@@ -87,7 +87,7 @@ background-image:url('img/back.png');
 .flip-card {
   width: 218px;
   height: 341px;
-  margin: 24px 24px 0 0;
+  margin: 24px 14px 0 10px;
   perspective: 1000px;
 }
 
@@ -152,6 +152,16 @@ background-image:url('img/back.png');
 .hard {
   width: 90%;
 }
+@media(max-width: 1920px){
+.hard {
+    width: 80%;
+}
+}
+@media(max-width: 1525px){
+.hard {
+    width: 90%;
+}
+}
 @media(max-width: 1350px){
 .hard {
     width: 95%;
@@ -167,6 +177,12 @@ background-image:url('img/back.png');
 	.flip-card {
     width: 156px;
     height: 240px;
+}
+}
+@media(max-width: 950px){
+	.flip-card {
+    width: 116px;
+    height: 180px;
 }
 }
 @media(max-width: 767px){
@@ -208,12 +224,24 @@ font-size: calc(22px + (10 + 10 * 0.7) * ((100vw - 320px) / 1440));
     height: 165px;
 }
 }
+@media(max-width: 680px){
+	.flip-card {
+    width: 70px;
+    height: 110px;
+}
+}
 @media(max-width: 510px){
 	.active{
 	background-position-x: 15%;
 }
 .flip-card {
+    width: 100px;
+    height: 153px;
+}
+}
+@media(max-width: 410px){
+	.flip-card {
     width: 75px;
-    height: 120px;
+    height: 115px;
 }
 }

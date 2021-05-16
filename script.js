@@ -59,7 +59,7 @@ function chooseLevel(menu) {
     wrapGame.classList.add('medium');
     break;
     case 'Сложный':
-    renderCard(10);
+    renderCard(9);
     wrapGame.classList.add('hard');
     break;
   }
